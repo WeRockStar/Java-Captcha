@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a1b9b9-3e11-459c-b07c-2d96f2b190be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Operator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/OperatorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Captcha.java" afterPath="$PROJECT_DIR$/src/main/java/Captcha.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CaptchaTest.java" afterPath="$PROJECT_DIR$/src/test/java/CaptchaTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CaptchaTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CaptchaTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CaptchaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="304">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Captcha.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Captcha.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Captcha.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="404">
+              <caret line="25" column="77" lean-forward="false" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
               <folding>
                 <element signature="e#414#415#0" expanded="true" />
                 <element signature="e#450#451#0" expanded="true" />
@@ -70,6 +68,8 @@
                 <element signature="e#519#520#0" expanded="true" />
                 <element signature="e#554#555#0" expanded="true" />
                 <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -454,10 +454,10 @@
         <option value="$PROJECT_DIR$/src/test/java/OperatorFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/OperatorFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/OperandFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CaptchaTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Operator.java" />
         <option value="$PROJECT_DIR$/src/test/java/OperatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Captcha.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CaptchaTest.java" />
       </list>
     </option>
   </component>
@@ -711,44 +711,44 @@
       <option name="presentableId" value="Default" />
       <updated>1502116632031</updated>
       <workItem from="1502116637626" duration="6087000" />
-      <workItem from="1502124135557" duration="3571000" />
+      <workItem from="1502124135557" duration="3877000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 43m 03s.xml">
-      <configuration name="All in Captcha_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 43m 10s.xml">
-      <configuration name="All in Captcha_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 45m 55s.xml">
-      <configuration name="All in Captcha_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 46m 12s.xml">
-      <configuration name="All in Captcha_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 46m 17s.xml">
-      <configuration name="All in Captcha_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 46m 59s.xml">
-      <configuration name="All in Captcha_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 47m 21s.xml">
-      <configuration name="All in Captcha_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 47m 45s.xml">
-      <configuration name="All in Captcha_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 48m 02s.xml">
-      <configuration name="All in Captcha_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 49m 04s.xml">
+      <configuration name="All in Captcha_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 49m 42s.xml">
+      <configuration name="All in Captcha_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 50m 14s.xml">
+      <configuration name="All in Captcha_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 51m 28s.xml">
+      <configuration name="All in Captcha_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 51m 36s.xml">
+      <configuration name="All in Captcha_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 53m 05s.xml">
+      <configuration name="All in Captcha_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 53m 35s.xml">
+      <configuration name="All in Captcha_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 54m 00s.xml">
+      <configuration name="All in Captcha_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 54m 31s.xml">
+      <configuration name="All in Captcha_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Captcha_test - 2017.08.08 at 00h 54m 37s.xml">
       <configuration name="All in Captcha_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9658000" />
+    <option name="totallyTimeSpent" value="9964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -761,7 +761,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -814,6 +814,8 @@
             <element signature="e#519#520#0" expanded="true" />
             <element signature="e#554#555#0" expanded="true" />
             <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -888,16 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CaptchaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -932,8 +924,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Captcha.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="404">
+          <caret line="25" column="77" lean-forward="false" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
           <folding>
             <element signature="e#414#415#0" expanded="true" />
             <element signature="e#450#451#0" expanded="true" />
@@ -941,6 +933,18 @@
             <element signature="e#519#520#0" expanded="true" />
             <element signature="e#554#555#0" expanded="true" />
             <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CaptchaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

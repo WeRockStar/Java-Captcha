@@ -21,4 +21,8 @@ public class Captcha {
     public String getOperator() {
         return operator.toString();
     }
+
+    public String getCaptcha() {
+        return String.format("%s %s %s", getLeft(), getOperator(), getRight());
+    }
 }
