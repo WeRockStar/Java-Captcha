@@ -6,21 +6,21 @@ public class OperatorFactoryTest {
 
     @Test
     public void string_pattern_create_operand_left() throws Exception {
-        assertTrue(OperatorFactory.createLeft(1, 1) instanceof StringOperand);
+        assertTrue(OperandFactory.createLeft(1, 1) instanceof StringOperand);
     }
 
     @Test
     public void string_pattern_create_operand_right() throws Exception {
-        assertTrue(OperatorFactory.createRight(1, 1) instanceof IntegerOperand);
+        assertTrue(OperandFactory.createRight(1, 1) instanceof IntegerOperand);
     }
 
     @Test
     public void integer_pattern_create_operand_left() throws Exception {
-        assertTrue(OperatorFactory.createLeft(2,1) instanceof IntegerOperand);
+        assertTrue(OperandFactory.createLeft(2,1) instanceof IntegerOperand);
     }
 
     @Test
     public void integer_pattern_create_operand_right() throws Exception {
-        assertTrue(OperatorFactory.createRight(2,1) instanceof StringOperand);
+        assertTrue(OperandFactory.createRight(2,1) instanceof StringOperand);
     }
 }
