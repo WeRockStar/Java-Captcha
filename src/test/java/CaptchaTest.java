@@ -8,6 +8,37 @@ public class CaptchaTest {
     private final int DUMMY_OPERATOR = 1;
     private final int DUMMY_OPERAND = 1;
 
+
+    @Test
+    public void put_1_minus_1_result_should_be_2() throws Exception {
+        Captcha captcha = new Captcha(1, 1,3,1);
+        assertEquals(0, captcha.getSumOfCaptcha());
+    }
+
+    @Test
+    public void put_2_multiply_2_result_should_be_2() throws Exception {
+        Captcha captcha = new Captcha(1, 2, 2, 2);
+        assertEquals(4, captcha.getSumOfCaptcha());
+    }
+
+    @Test
+    public void put_1_plus_1_result_should_be_2() throws Exception {
+        Captcha captcha = new Captcha(1, 1, 1, 1);
+        assertEquals(2, captcha.getSumOfCaptcha());
+    }
+
+    @Test
+    public void put_2_plus_1_result_should_be_2() throws Exception {
+        Captcha captcha = new Captcha(1, 2, 1, 1);
+        assertEquals(3, captcha.getSumOfCaptcha());
+    }
+
+    @Test
+    public void put_3_plus_1_result_should_be_2() throws Exception {
+        Captcha captcha = new Captcha(1, 3, 1, 1);
+        assertEquals(4, captcha.getSumOfCaptcha());
+    }
+
     @Test
     public void get_captcha_1111_should_be_one_plus_1() throws Exception {
         Captcha captcha = new Captcha(1, 1, 1, 1);

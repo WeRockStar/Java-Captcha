@@ -9,4 +9,9 @@ public class IntegerOperand implements Operand {
     public String toString() {
         return String.valueOf(value);
     }
+
+    @Override
+    public int getOriginalValue() {
+        return value;
+    }
 }

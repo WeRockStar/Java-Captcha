@@ -12,4 +12,9 @@ public class StringOperand implements Operand {
         return numberString[value - 1];
     }
 
+    @Override
+    public int getOriginalValue() {
+        return value;
+    }
+
 }

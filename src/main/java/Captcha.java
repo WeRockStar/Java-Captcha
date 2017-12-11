@@ -5,8 +5,8 @@ public class Captcha {
     private Operator operator;
 
     public Captcha(int pattern, int leftOperand, int operator, int rightOperand) {
-        this.left = OperandFactory.createLeft(pattern,leftOperand);
-        this.right = OperandFactory.createRight(pattern,rightOperand);
+        this.left = OperandFactory.createLeft(pattern, leftOperand);
+        this.right = OperandFactory.createRight(pattern, rightOperand);
         this.operator = new Operator(operator);
     }
 
@@ -24,5 +24,18 @@ public class Captcha {
 
     public String getCaptcha() {
         return String.format("%s %s %s", getLeft(), getOperator(), getRight());
+    }
+
+    public int getSumOfCaptcha() {
+        int leftOperand = left.getOriginalValue();
+        int rightOperand = right.getOriginalValue();
+        switch (getOperator()) {
+            case "+":
+                return leftOperand + rightOperand;
+            case "-":
+                return leftOperand - rightOperand;
+            default:
+                return leftOperand * rightOperand;
+        }
     }
 }
