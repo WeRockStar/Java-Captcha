@@ -29,13 +29,6 @@ public class Captcha {
     public int getSumOfCaptcha() {
         int leftOperand = left.getOriginalValue();
         int rightOperand = right.getOriginalValue();
-        switch (getOperator()) {
-            case "+":
-                return leftOperand + rightOperand;
-            case "-":
-                return leftOperand - rightOperand;
-            default:
-                return leftOperand * rightOperand;
-        }
+        return operator.calculate(leftOperand, rightOperand);
     }
 }
