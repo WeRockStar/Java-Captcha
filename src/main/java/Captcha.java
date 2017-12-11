@@ -11,11 +11,11 @@ public class Captcha {
     }
 
     public String getLeft() {
-        return left.toText();
+        return left.toString();
     }
 
     public String getRight() {
-        return right.toText();
+        return right.toString();
     }
 
     public String getOperator() {

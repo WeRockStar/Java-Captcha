@@ -16,7 +16,7 @@ public class OperatorFactoryTest {
 
     @Test
     public void integer_pattern_create_operand_left() throws Exception {
-        assertTrue(OperandFactory.createLeft(2,1) instanceof IntegerOperand);
+        assertTrue(OperandFactory.createLeft( 2,1) instanceof IntegerOperand);
     }
 
     @Test

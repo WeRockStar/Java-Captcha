@@ -7,7 +7,7 @@ public class StringOperand implements Operand {
     }
 
     @Override
-    public String toText() {
+    public String toString() {
         String numberString[] = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
         return numberString[value - 1];
     }

@@ -6,7 +6,7 @@ public class IntegerOperand implements Operand {
     }
 
     @Override
-    public String toText() {
+    public String toString() {
         return String.valueOf(value);
     }
 }

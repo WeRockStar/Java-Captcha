@@ -1,3 +1,3 @@
 public interface Operand {
-    String toText();
+    String toString();
 }

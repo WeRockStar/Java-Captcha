@@ -7,18 +7,18 @@ public class StringOperandTest {
     @Test
     public void put_1_operand_should_be_one() throws Exception {
         Operand operand = new StringOperand(1);
-        assertEquals("One", operand.toText());
+        assertEquals("One", operand.toString());
     }
 
     @Test
     public void put_5_operand_should_be_five() throws Exception {
         Operand operand = new StringOperand(5);
-        assertEquals("Five", operand.toText());
+        assertEquals("Five", operand.toString());
     }
 
     @Test
     public void put_5_operand_should_be_nine() throws Exception {
         Operand operand = new StringOperand(9);
-        assertEquals("Nine", operand.toText());
+        assertEquals("Nine", operand.toString());
     }
 }
