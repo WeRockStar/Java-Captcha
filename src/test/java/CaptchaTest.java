@@ -12,31 +12,31 @@ public class CaptchaTest {
     @Test
     public void put_1_minus_1_result_should_be_2() throws Exception {
         Captcha captcha = new Captcha(1, 1,3,1);
-        assertEquals(0, captcha.getSumOfCaptcha());
+        assertEquals(0, captcha.getSumOfCaptchaNumber());
     }
 
     @Test
     public void put_2_multiply_2_result_should_be_2() throws Exception {
         Captcha captcha = new Captcha(1, 2, 2, 2);
-        assertEquals(4, captcha.getSumOfCaptcha());
+        assertEquals(4, captcha.getSumOfCaptchaNumber());
     }
 
     @Test
     public void put_1_plus_1_result_should_be_2() throws Exception {
         Captcha captcha = new Captcha(1, 1, 1, 1);
-        assertEquals(2, captcha.getSumOfCaptcha());
+        assertEquals(2, captcha.getSumOfCaptchaNumber());
     }
 
     @Test
     public void put_2_plus_1_result_should_be_2() throws Exception {
         Captcha captcha = new Captcha(1, 2, 1, 1);
-        assertEquals(3, captcha.getSumOfCaptcha());
+        assertEquals(3, captcha.getSumOfCaptchaNumber());
     }
 
     @Test
     public void put_3_plus_1_result_should_be_2() throws Exception {
         Captcha captcha = new Captcha(1, 3, 1, 1);
-        assertEquals(4, captcha.getSumOfCaptcha());
+        assertEquals(4, captcha.getSumOfCaptchaNumber());
     }
 
     @Test

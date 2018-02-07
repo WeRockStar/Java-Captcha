@@ -26,7 +26,7 @@ public class Captcha {
         return String.format("%s %s %s", getLeft(), getOperator(), getRight());
     }
 
-    public int getSumOfCaptcha() {
+    public int getSumOfCaptchaNumber() {
         int leftOperand = left.getOriginalValue();
         int rightOperand = right.getOriginalValue();
         return operator.calculate(leftOperand, rightOperand);
