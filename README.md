@@ -1,1 +1,2 @@
 ## Test Driven Development with Java
+[![Build Status](https://travis-ci.org/WeRockStar/TDD-Java.svg?branch=master)](https://travis-ci.org/WeRockStar/TDD-Java) [![codecov](https://codecov.io/gh/WeRockStar/TDD-Java/branch/master/graph/badge.svg)](https://codecov.io/gh/WeRockStar/TDD-Java)
